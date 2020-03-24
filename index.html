@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BothOfUs - Volunteer Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="logo.png"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="bg-volunteer" style="background-image: url('bg1.png');">
+		<div class="container-volunteer" >
+			<div class="wrap-volunteer">
+				<form class="volunteer-form validate-form" action="connection2.php" method="post">
+					<span class="volunteer-form-title">
+						Volunteer Form
+					</span>
+                
+                  
+					<div class="wrap-input3 validate-input" data-validate="First Name is required">
+						<input class="input3" type="text" name="firstname" placeholder="Your First Name" required>
+						<span class="focus-input3"></span>
+					</div>
+                    
+                    <div class="wrap-input3 validate-input" data-validate="Last Name is required">
+						<input class="input3" type="text" name="lastname" placeholder="Your Last Name" required>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input3" type="text" name="email" placeholder="Your Email" required>
+						<span class="focus-input3"></span>
+					</div>
+                    
+                       
+                    <div class="wrap-input3 validate-input" data-validate="City or Town is required">
+						<input class="input3" type="text" name="city" placeholder="City or Town" required>
+						<span class="focus-input3"></span>
+					</div>
+                    
+                    <div class="wrap-input3 validate-input" data-validate="Country is required">
+						<input class="input3" type="text" name="country" placeholder="Country" required>
+						<span class="focus-input3"></span>
+					</div>
+                    
+                    <div class="wrap-input3 validate-input" data-validate="Phone Number is required">
+						<input class="input3" type="tel" name="phonenumber" placeholder="Phone Number" required>
+						<span class="focus-input3"></span>
+					</div>
+                    
+                    <p>Do you have a car?</p>   
+                    <div class="wrap-volunteer-form-radio">
+						<div class="volunteer-form-radio m-r-42">
+							<input class="input-radio3" id="radio1" type="radio" name="car" value="yes" checked="checked">
+							<label class="label-radio3" for="radio1">
+								Yes
+							</label>
+						</div>
+
+						<div class="volunteer-form-radio">
+							<input class="input-radio3" id="radio2" type="radio" name="car" value="no">
+							<label class="label-radio3" for="radio2">
+								No
+							</label>
+						</div>
+					</div>
+                    
+                    <p>Would you be able to deliver food and medicine to those in quarantine?</p>   
+                    <div class="wrap-volunteer-form-radio">
+						<div class="volunteer-form-radio m-r-42">
+							<input class="input-radio3" id="radio3" type="radio" name="food" value="yes" checked="checked">
+							<label class="label-radio3" for="radio3">
+								Yes
+							</label>
+						</div>
+
+						<div class="volunteer-form-radio">
+							<input class="input-radio3" id="radio4" type="radio" name="food" value="no">
+							<label class="label-radio3" for="radio4">
+								No
+							</label>
+						</div>
+					</div>
+                    
+                    <p>Can you host a pet such as a dog or cat?</p>   
+                    <div class="wrap-volunteer-form-radio">
+						<div class="volunteer-form-radio m-r-42">
+							<input class="input-radio3" id="radio5" type="radio" name="pet" value="yes" checked="checked">
+							<label class="label-radio3" for="radio5">
+								Yes
+							</label>
+						</div>
+
+						<div class="volunteer-form-radio">
+							<input class="input-radio3" id="radio6" type="radio" name="pet" value="no">
+							<label class="label-radio3" for="radio6">
+								No
+							</label>
+						</div>
+					</div>
+                    
+                    <p>Can you walk a dog or feed a cat near you?</p>   
+                    <div class="wrap-volunteer-form-radio">
+						<div class="volunteer-form-radio m-r-42">
+							<input class="input-radio3" id="radio7" type="radio" name="feed" value="yes" checked="checked">
+							<label class="label-radio3" for="radio7">
+								Yes
+							</label>
+						</div>
+
+						<div class="volunteer-form-radio">
+							<input class="input-radio3" id="radio8" type="radio" name="feed" value="no">
+							<label class="label-radio3" for="radio8">
+								No
+							</label>
+						</div>
+					</div>
+                    
+                    <p>What others things can you do to support?</p>  
+                    
+					<div class="wrap-input3 validate-input" data-validate = "Message is required">
+						<textarea class="input3" name="message" placeholder="Your Message" required></textarea>
+						<span class="focus-input3"></span>
+					</div>
+                 
+					<div class="container-volunteer-form-btn">
+						<button class="volunteer-form-btn">
+							SUBMIT
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
